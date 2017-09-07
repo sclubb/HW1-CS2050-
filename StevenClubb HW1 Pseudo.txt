@@ -1,0 +1,34 @@
+Steven Clubb
+CS 2050
+
+String userName
+Bool hasLower
+Bool hasUpper
+Bool loginLength
+Bool hasDigit
+Bool hasSpecial
+String PrintValidity
+StringBuffer sb 
+Main{
+Print "This program will test to see if your User Login is valid or not. A User Login must contain at least one lower case letter, one uppercase letter, one number, and one of the following special characters: !@#$. (excluding the period)"
+While user wants to enter more User Logins
+	readUser
+		Scan keyboard
+	checkCase 
+		For loop to cycle through string
+			Check each character for lowercase letters
+			Check each character for uppercase letters
+	checkLength
+		if statement to check length of userName
+	checkDigit
+		for loop to check each character for numbers
+ checkSpecial
+	for loop to check each character for special characters required 
+	if statements to check each special character individually
+checkValidity
+		if statements to check each boolean
+		Provide feedback to user for each element that isnt valid
+		Concatenates each feedback to a StringBuffer
+		
+Adds StringBuffer that has userName, Validity, result and error messages to file
+
