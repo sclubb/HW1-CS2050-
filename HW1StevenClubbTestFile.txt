@@ -1,0 +1,42 @@
+Happy#@!888  (Valid)
+-- uppercase OK
+-- length OK
+-- digit OK
+-- lowercase OK
+-- special character OK
+go_t  (Invalid)
+-- no uppercase
+-- too short (minimun of 5 characters
+-- no digit
+-- lowercase OK
+-- no special character
+SClubb@207  (Valid)
+-- uppercase OK
+-- length OK
+-- digit OK
+-- lowercase OK
+-- special character OK
+gMan  (Invalid)
+-- uppercase OK
+-- too short (minimun of 5 characters
+-- no digit
+-- lowercase OK
+-- no special character
+DELETE_SYSTEM32  (Invalid)
+-- uppercase OK
+-- length OK
+-- digit OK
+-- no lowercase
+-- no special character
+867-5309  (Invalid)
+-- no uppercase
+-- length OK
+-- digit OK
+-- no lowercase
+-- no special character
+Harambe2016!  (Valid)
+-- uppercase OK
+-- length OK
+-- digit OK
+-- lowercase OK
+-- special character OK
